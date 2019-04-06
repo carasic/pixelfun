@@ -1,14 +1,12 @@
 // ==UserScript==
-// @name         Vascopixel Minimap
+// @name         Sha Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.2.4
-// @description  VP Minimap Zone
+// @version      1.2.5
+// @description  PP Minimap Zone
 // @author       ConsoleBey#9737
-// @match        https://pixelzone.io/*
-// @match        http://pixelzone.io/*
-// @homepage     https://github.com/Vasco-Pixel/mz
-// @updateURL    https://raw.githubusercontent.com/Vasco-Pixel/mz/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/Vasco-Pixel/mz/master/minimap.user.js
+// @match        https://pixelplanet.fun/*
+// @updateURL    https://raw.githubusercontent.com/TheGorox/pixelPlanetTemplate/master/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/TheGorox/pixelPlanetTemplate/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,14 +16,14 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Vasco-Pixel/mz/master/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/TheGorox/pixelPlanetTemplate/master/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
     re = /(.*)\/\?p=(\-?(?:\d*)),(\-?(?:\d*))/g;
     //Regular Expression to get coordinates from cursor
     rec = /x\:(\d*) y\:(\d*)/g;
-    gameWindow = document.getElementById("canvas");
+    gameWindow = document.getElementById("gameWindow");
     //DOM element of the displayed X, Y variables
     coorDOM = null;
     findCoor();
@@ -126,7 +124,7 @@ window.addEventListener('load', function () {
     document.getElementById("zoom-minus").addEventListener('mouseup', function (e) {
         zooming_out = false;
     }, false); 
-    gameWindow = document.getElementById("canvas");
+    gameWindow = document.getElementById("gameWindow");
     gameWindow.addEventListener('mouseup', function (evt) {
         if (!toggle_show)
             return;
@@ -137,7 +135,7 @@ window.addEventListener('load', function () {
     gameWindow.addEventListener('mousemove', function (evt) {
         if (!toggle_show)
             return;
-        coorDOM = document.getElementById("coords");
+        coorDOM = document.getElementsByClassName("coorbox")[0];
         coordsXY = coorDOM.innerHTML.split(/(\d+)/)
         //console.log(coordsXY);
         x_new = (coordsXY[0].substring(2) + coordsXY[1])*1
@@ -263,7 +261,7 @@ function loadTemplates() {
             continue
         if (!y_window.between(temp_y-range*1, temp_yb+range*1))
             continue
-        console.log("Template " + template + " is in range!");
+        
         // console.log(x_window, y_window);
         needed_templates.push(template);
     }
@@ -318,7 +316,7 @@ function drawTemplates() {
         var newheight = zoomlevel * image_list[template].height;
         var img = image_list[template];
         ctx_minimap.drawImage(img, xoff, yoff, newwidth, newheight);
-        console.log("Drawn!");
+
     }
 }
 
@@ -388,5 +386,5 @@ function findCoor() {
             console.log(coorDOM.innerHTML);
         }
     });*/
-    coorDOM = document.getElementById("coords");
+    coorDOM = document.getElementsByClassName("coorbox")[0];
 }
