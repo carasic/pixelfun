@@ -40,5 +40,12 @@
     "y": -12486,
     "width": 61,
     "height": 70
+   },
+  "base": {
+    "name": "base.png",
+    "x": 2240,
+    "y": -7725,
+    "width": 603,
+    "height": 384
    }
 }
