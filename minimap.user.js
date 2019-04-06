@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Sha Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.2.5
+// @version      1.2.6
 // @description  PP Minimap Zone
 // @author       ConsoleBey#9737
 // @match        https://pixelplanet.fun/*
