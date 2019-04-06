@@ -12,5 +12,12 @@
     "y": -7946,
     "width": 368,
     "height": 368
+   },
+  "baza": {
+    "name": "main.png",
+    "x": 1397,
+    "y": -11130,
+    "width": 115,
+    "height": 55
    }
 }
