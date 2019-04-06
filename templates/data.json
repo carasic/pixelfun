@@ -19,5 +19,19 @@
     "y": -11130,
     "width": 115,
     "height": 55
+   },
+  "baza": {
+    "name": "biturdsk.png",
+    "x": 2240,
+    "y": -7740,
+    "width": 115,
+    "height": 55
+   },
+  "gay": {
+    "name": "abu_gay.png",
+    "x": 10029,
+    "y": -15954,
+    "width": 820,
+    "height": 852
    }
 }
