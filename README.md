@@ -9,4 +9,3 @@
 
 #### Пассо 2: Установи скрипт
 <a href="https://raw.githubusercontent.com/TheGorox/pixelPlanetTemplate/master/minimap.user.js">скочать</a>
-
