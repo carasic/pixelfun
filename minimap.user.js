@@ -136,7 +136,7 @@ window.addEventListener('load', function () {
         if (!toggle_show)
             return;
         coorDOM = document.getElementsByClassName("coorbox")[0];
-        coordsXY = coorDOM.innerHTML.split(/(\d+)/)
+        coordsXY = coorDOM.innerHTML.split(/(-?\d+)/)
         //console.log(coordsXY);
         x_new = (coordsXY[0].substring(2) + coordsXY[1])*1
         y_new = (coordsXY[2].substring(3) + coordsXY[3])*1;
@@ -257,12 +257,12 @@ function loadTemplates() {
         var temp_yb = parseInt(template_list[template]["y"]) + parseInt(template_list[template]["height"]);
         // if (temp_xr <= x_left || temp_yb <= y_top || temp_x >= x_right || temp_y >= y_bottom)
         //    continue
+        console.log(x_window, y_window);
         if (!x_window.between(temp_x-range*1, temp_xr+range*1))
             continue
         if (!y_window.between(temp_y-range*1, temp_yb+range*1))
             continue
         
-        // console.log(x_window, y_window);
         needed_templates.push(template);
     }
     if (needed_templates.length == 0) {
