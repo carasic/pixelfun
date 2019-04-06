@@ -33,5 +33,12 @@
     "y": -15954,
     "width": 820,
     "height": 852
+   },
+  "necto": {
+    "name": "fraer.png",
+    "x": 28939,
+    "y": -12486,
+    "width": 61,
+    "height": 70
    }
 }
