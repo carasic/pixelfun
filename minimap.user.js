@@ -95,7 +95,7 @@ window.addEventListener('load', function () {
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
         document.getElementById("minimap-text").style.display = "block";
-        document.getElementById("minimap-text").innerHTML = "Mostrar Minimapa";
+        document.getElementById("minimap-text").innerHTML = "Миникарта";
         document.getElementById("minimap-text").style.cursor = "pointer";
     };
     document.getElementById("minimap-text").onclick = function () {
@@ -194,7 +194,7 @@ function toggleShow() {
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
         document.getElementById("minimap-text").style.display = "block";
-        document.getElementById("minimap-text").innerHTML = "Mostrar Minimap";
+        document.getElementById("minimap-text").innerHTML = "Миникарта";
         document.getElementById("minimapbg").onclick = function () {
             toggleShow()
         };
@@ -269,7 +269,7 @@ function loadTemplates() {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
-            document.getElementById("minimap-text").innerHTML = "Não tem nada aqui.";
+            document.getElementById("minimap-text").innerHTML = "Нечего отображать.";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
