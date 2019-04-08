@@ -52,6 +52,14 @@
   
   "akatsuki1": {
     "name": "akatsuki1.png",
+    "x": 9000,
+    "y": -12000,
+    "width": 30,
+    "height": 43
+   },
+  
+  "wakaba": {
+    "name": "wakaba.jpg",
     "x": 10307,
     "y": -15023,
     "width": 181,
