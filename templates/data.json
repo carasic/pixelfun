@@ -48,5 +48,13 @@
     "y": -12484,
     "width": 73,
     "height": 100
+   },
+  
+  "akatsuki1": {
+    "name": "akatsuki1.png",
+    "x": 10307,
+    "y": -15023,
+    "width": 181,
+    "height": 119
    }
 }
