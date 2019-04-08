@@ -69,5 +69,12 @@
     "y": -15006,
     "width": 100,
     "height": 100
+   },
+  "painttools": {
+    "name": "painttools.jpg",
+    "x": 29001,
+    "y": -12429,
+    "width": 60,
+    "height": 12
    }
 }
