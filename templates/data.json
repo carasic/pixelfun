@@ -97,5 +97,12 @@
     "y": -15942,
     "width": 163,
     "height": 239
+   },
+  "maids": {
+    "name": "maids.jpg",
+    "x": 10029,
+    "y": -16060,
+    "width": 820,
+    "height": 102
    }
 }
