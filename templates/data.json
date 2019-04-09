@@ -42,7 +42,7 @@
     "height": 384
    },
 
-  "anya": {
+  "anya": 
     "name": "anya.jpg",
     "x": 29076,
     "y": -12484,
@@ -76,5 +76,12 @@
     "y": -12429,
     "width": 60,
     "height": 12
+   },
+  "stancia": {
+    "name": "stancia.png",
+    "x": 10851,
+    "y": -15954,
+    "width": 104,
+    "height": 197
    }
 }
