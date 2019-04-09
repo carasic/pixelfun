@@ -83,5 +83,12 @@
     "y": -15954,
     "width": 104,
     "height": 197
+   },
+  "slavya": {
+    "name": "slavya.png",
+    "x": 2603,
+    "y": -7888,
+    "width": 67,
+    "height": 263
    }
 }
