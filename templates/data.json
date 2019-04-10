@@ -41,7 +41,6 @@
     "width": 603,
     "height": 384
    },
-
   "anya": {
     "name": "anya.jpg",
     "x": 29076,
@@ -104,5 +103,12 @@
     "y": -16060,
     "width": 820,
     "height": 102
+   },
+  "hlm": {
+    "name": "fraer2.png",
+    "x": 28869,
+    "y": -12486,
+    "width": 61,
+    "height": 70
    }
 }
