@@ -110,5 +110,12 @@
     "y": -12486,
     "width": 61,
     "height": 70
+   },
+  "sailormoon": {
+    "name": "SM.png",
+    "x": 28900,
+    "y": -12330,
+    "width": 75,
+    "height": 100
    }
 }
