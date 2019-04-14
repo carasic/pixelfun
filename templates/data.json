@@ -63,7 +63,7 @@
     "height": 43
    },
   "yuri": {
-    "name": "yuri.png",
+    "name": "yuri1.png",
     "x": 10194,
     "y": -15006,
     "width": 100,
@@ -117,5 +117,19 @@
     "y": -12330,
     "width": 75,
     "height": 100
+   },
+  "armitage": {
+    "name": "armitage.jpg",
+    "x": 29000,
+    "y": -12330,
+    "width": 200,
+    "height": 234
+   },
+  "alice": {
+    "name": "alice.png",
+    "x": 8074,
+    "y": -16197,
+    "width": 800,
+    "height": 791
    }
 }
