@@ -145,5 +145,12 @@
     "y": -16452,
     "width": 172,
     "height": 202
+   },
+  "alisochka": {
+    "name": "expectedOutput.png",
+    "x": 29320,
+    "y": -12500,
+    "width": 1125,
+    "height": 1080
    }
 }
