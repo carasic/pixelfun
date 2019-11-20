@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Pixelfun Minimap
+// @name         Pixelplanet.fun Minimap
 // @namespace    http://tampermonkey.net/
 // @version      1.2.6
 // @description  PP Minimap w/Templates
